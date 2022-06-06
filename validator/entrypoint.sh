@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CLIENT="lighthouse"
-NETWORK="prater"
+NETWORK="gnosis"
 VALIDATOR_PORT=3500
 VALIDATORS_FILE="/root/.lighthouse/validators/validator_definitions.yml"
 WEB3SIGNER_API="http://web3signer.web3signer-${NETWORK}.dappnode:9000"
