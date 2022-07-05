@@ -4,15 +4,15 @@
   "upstreamVersion": "v2.3.1",
   "architectures": ["linux/amd64"],
   "upstreamRepo": "sigp/lighthouse",
-  "shortDescription": "Lighthouse gnosis ETH2.0 Beacon chain + validator",
-  "description": "Lighthouse is an Ethereum 2.0 client that connects to other Ethereum 2.0 clients to form a resilient and decentralized proof-of-stake blockchain.",
+  "shortDescription": "Lighthouse Gnosis Chain CL Beacon chain + validator",
+  "description": "Lighthouse is an Beacon Chain + Validator client that connects to other clients to form a resilient and decentralized proof-of-stake blockchain.",
   "type": "service",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
     "pablo <pablo@dappnode.io> (https://github.com/pablomendezroyo)",
     "mgarciate <mgarciate@gmail.com> (https://github.com/mgarciate)"
   ],
-  "categories": ["Blockchain", "ETH2.0"],
+  "categories": ["Blockchain"],
   "repository": {
     "type": "git",
     "url": "https://github.com/sigp/lighthouse.git"
@@ -39,6 +39,6 @@
     "web3signer-gnosis.dnp.dappnode.eth": "latest"
   },
   "warnings": {
-    "onRemove": "Make sure your web3signer does not have selected this client! (see it at packages > web3signer > config > client)"
+    "onRemove": "Make sure your web3signer does not have this client selected! (Packages > web3signer > config > client)"
   }
 }
