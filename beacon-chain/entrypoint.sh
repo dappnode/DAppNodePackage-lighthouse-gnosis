@@ -21,7 +21,7 @@ exec lighthouse \
     --network gnosis \
     beacon_node \
     --datadir /root/.lighthouse \
-    --eth1 --eth1-endpoints $HTTP_WEB3PROVIDER \
+    --eth1-endpoints $HTTP_WEB3PROVIDER \
     --http \
     --http-allow-origin "*" \
     --http-address 0.0.0.0 \
