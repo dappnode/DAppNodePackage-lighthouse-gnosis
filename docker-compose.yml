@@ -17,11 +17,11 @@ services:
     environment:
       DEBUG_LEVEL: info
       BEACON_API_PORT: 3500
-      HTTP_WEB3PROVIDER: "http://nethermind-xdai.dappnode:8545"
-      CORSDOMAIN: "http://lighthouse.dappnode"
+      CORSDOMAIN: "http://lighthouse-gnosis.dappnode"
       CHECKPOINT_SYNC_URL: ""
       EXTRA_OPTS: ""
       P2P_PORT: 19004
+      HTTP_ENGINE: ""
   validator:
     image: "validator.lighthouse-gnosis.dnp.dappnode.eth:0.1.0"
     build:
