@@ -17,7 +17,7 @@ services:
     environment:
       DEBUG_LEVEL: info
       BEACON_API_PORT: 3500
-      HTTP_ENGINE: "http://nethermind-xdai.dappnode:8545"
+      HTTP_ENGINE: "http://nethermind-xdai.dappnode:8551"
       CORSDOMAIN: "http://lighthouse-gnosis.dappnode"
       CHECKPOINT_SYNC_URL: ""
       EXTRA_OPTS: ""
