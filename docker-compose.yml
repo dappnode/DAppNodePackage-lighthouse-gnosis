@@ -5,7 +5,7 @@ services:
     build:
       context: beacon-chain
       args:
-        UPSTREAM_VERSION: v3.2.1
+        UPSTREAM_VERSION: v3.3.0
     volumes:
       - "beacon-data:/root/.lighthouse"
     ports:
@@ -17,8 +17,8 @@ services:
     environment:
       DEBUG_LEVEL: info
       BEACON_API_PORT: 3500
-      HTTP_WEB3PROVIDER: "http://nethermind-xdai.dappnode:8545"
-      CORSDOMAIN: "http://lighthouse.dappnode"
+      HTTP_ENGINE: "http://nethermind-xdai.dappnode:8545"
+      CORSDOMAIN: "http://lighthouse-gnosis.dappnode"
       CHECKPOINT_SYNC_URL: ""
       EXTRA_OPTS: ""
       P2P_PORT: 19004
@@ -27,7 +27,7 @@ services:
     build:
       context: validator
       args:
-        UPSTREAM_VERSION: v3.2.1
+        UPSTREAM_VERSION: v3.3.0
     restart: unless-stopped
     security_opt:
       - "seccomp:unconfined"
