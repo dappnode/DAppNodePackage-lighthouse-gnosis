@@ -15,13 +15,13 @@
   "categories": ["Blockchain"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sigp/lighthouse.git"
+    "url": "https://github.com/dappnode/DAppNodePackage-lighthouse-gnosis.git"
   },
   "bugs": {
-    "url": "https://github.com/sigp/lighthouse/issues"
+    "url": "https://github.com/dappnode/DAppNodePackage-lighthouse-gnosis/issues"
   },
   "links": {
-    "ui": "http://ui.web3signer-gnosis.dappnode?signer_url=http://web3signer.web3signer-gnosis.dappnode:9000",
+    "ui": "http://brain.web3signer-gnosis.dappnode",
     "homepage": "https://github.com/dappnode/DAppNodePackage-lighthouse-gnosis#readme",
     "readme": "https://github.com/sigp/lighthouse/blob/stable/README.md",
     "docs": "https://lighthouse-book.sigmaprime.io/"
@@ -36,7 +36,7 @@
     "portNumber": 3500
   },
   "warnings": {
-    "onRemove": "Make sure your web3signer does not have this client selected! (Packages > web3signer > config > client)"
+    "onRemove": "Make sure your Gnosis StakersUI does not have Lighthouse Gnosis selected or you will stop validating! (Stakers > Gnosis)"
   },
   "globalEnvs": [
     {
