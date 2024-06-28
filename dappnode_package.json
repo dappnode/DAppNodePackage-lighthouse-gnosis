@@ -1,7 +1,7 @@
 {
   "name": "lighthouse-gnosis.dnp.dappnode.eth",
-  "version": "0.1.12",
-  "upstreamVersion": "v5.1.3",
+  "version": "0.1.13",
+  "upstreamVersion": "v5.2.1",
   "architectures": ["linux/amd64"],
   "upstreamRepo": "sigp/lighthouse",
   "shortDescription": "Lighthouse Gnosis Chain CL Beacon chain + validator",
